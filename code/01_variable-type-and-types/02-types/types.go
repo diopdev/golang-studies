@@ -24,8 +24,8 @@ func main() {
 	// - strings: ""
 	// - booleans: false
 	// - floats: 0.0
-	fmt.Println(a, b, c, d)
-	// 5. Os tipos de dados compostos são array, slice, struct, e map.
+	fmt.Println(a, b, c, d, x, y, z, w)
+	// // 5. Os tipos de dados compostos são array, slice, struct, e map.
 	var e [5]int
 	var f []int
 	var g struct{}
@@ -33,7 +33,7 @@ func main() {
 	// 7. Para converter valores entre tipos utilizamos tipo(valor).
 	x = int(molhodetomate)
 	molhodetomate = cebola(x)
-	// 8. Em Go não podemos ter variáveis não utilizadas. Portanto pra fazer esse programa rodar precisamos utilizar o que não foi utilizado acima.
+	// // 8. Em Go não podemos ter variáveis não utilizadas. Portanto pra fazer esse programa rodar precisamos utilizar o que não foi utilizado acima.
 	fmt.Println(e, f, g, h, y, z, w)
 
 }
